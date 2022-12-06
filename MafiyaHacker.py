@@ -503,7 +503,7 @@ class __crack__:
 
 			if 'c_user' in ses.cookies.get_dict():
 
-				print('\r\033[1;32m[MAFIYA'S ID-SUCCESSFUL] %s | %s      ' % (user,pw))
+				print('\r\033[1;32m[ID-SUCCESSFUL] %s | %s      ' % (user,pw))
 
 				wrt = '%s - %s' % (user,pw)
 
